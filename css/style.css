@@ -1,0 +1,65 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+* {
+	box-sizing: border-box;
+}
+body{
+	color: black;
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+	background-color: lavenderblush;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+/*Style the images*/
+img{
+	float: left;
+	width: 33.33%;
+	padding: 20px;
+	border: 10px;
+	margin: auto;
+}
+video{
+	float: left;
+	width: 33.33%;
+	padding: 20px;
+	border: 10px;
+	margin: auto;
+}
+.row{
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+
+img:hover{
+	border: 10px dashed purple; 
+} 
+
+.rightimg:hover{
+	filter: grayscale();
+}
+
